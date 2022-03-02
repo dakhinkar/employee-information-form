@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="">
+        <div>
+        <h1 >Employee Information Form</h1>
+
+            
+        <section class="font-size">
+        <fieldset >
+            <legend>Personal Details</legend>
+            <label for="fname">First Name: </label>
+            <input type="text" name="fname" style="width: 250px;" class="box special-width">
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" style="width: 250px;" class="box special-width"> <br>
+            <label for="phone-no">Phone No: </label>    
+            <input type="number" name="phone-no" class="box" inputmode="numeric"> <br>
+            <label for="email"> Email Id: </label>
+            <input type="email" name="email" class="box special-width">  <br>
+            <label for="present-add">Present Address: </label>
+            <textarea name="present-add" id="" cols="30" rows="3" class="box"></textarea>  <br>
+            <label for="permant-add">Permant Address: </label>
+            <textarea name="permant-add" id="" cols="30" rows="3 " class="box"></textarea>  <br>
+            <label for="DOB">Date of Birth: </label>
+            <input type="date" name="DOB" class="box">   <br>
+
+            <label for="status">Material Status: </label>
+            <label for="marride"> Marride</label>
+            <input type="radio" id="marride" name="status" value="Marride">
+            <label for="single">Single</label>
+            <input type="radio" id="singel" name="status" value="Single" checked> <br>
+            <label for="gender">Gender: </label>
+            <label for="male"> Male</label>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="single">Female</label>
+            <input type="radio" id="female" name="gender" value="female" > <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Work Deatils</legend>
+            <label for="job-info">Job Information: </label>
+            <input type="text" name="job-info" class="box special-width"> <br>
+            <label for="dept">Department: </label>
+            <input type="text" name="dept" class="box special-width"> <br>
+            <label for="work-email">Work Mail: </label>
+            <input type="text" name="work-email" class="box special-width">  <br>
+            <label for="start-date">Start Date: </label>
+            <input type="date" name="start-date" class="box"> <br>
+            <label for="employee-id">Employee Id: </label>
+            <input type="text" name="employee-id" class="box"> <br>
+            <label for="salary">Salary: </label>
+            <input type="number" name="salary" class="box"> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Emergancy Contact Information</legend>
+            <label for="efname">First Name: </label>
+            <input type="text" name="efname" class="box special-width"> <br>
+            <label for="elname">Last Name: </label>
+            <input type="text" name="elname" class="box special-width"> <br>
+            <label for="e-phone-no">Phone No: </label>
+            <input type="number" name="e-phone-no" class="box"> <br>
+            <label for="e-address">Address: </label>
+            <textarea name="e-address" id="e-address" cols="30" rows="2" class="box"></textarea><br>
+            <label for="relation">Relationship: </label>
+            <input type="text" name="relation" class="box"> <br>
+            
+        </fieldset>
+        <button name="submit" id="submit"> Submit </button>
+        </section>
+        </div>
+
+    </form>
+</body>
+</html>
